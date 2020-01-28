@@ -2,7 +2,7 @@ const express = require('express');
 const routes = require('./routes');
 
 class App {
-  contructor() { // Executa automatico (constroi) quando a classe é chamada.
+  constructor() { // Executa automatico (constroi) quando a classe é chamada.
     this.server = express();
 
     this.middlewares();
